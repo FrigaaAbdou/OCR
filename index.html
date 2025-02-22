@@ -145,6 +145,20 @@
       white-space: pre-wrap;
       font-family: 'Courier New', Courier, monospace;
     }
+    /* Footer */
+    footer {
+      width: 100%;
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: #333;
+      border-radius: 12px;
+    }
+    footer p {
+      padding: 1rem;
+    }
     /* Responsive Adjustments */
     @media (max-width: 480px) {
       .container {
@@ -182,37 +196,13 @@
   
         <!-- Image Guidance Section -->
         <div class="image-guidance">
-          <svg
-            viewBox="0 0 200 120"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
             <!-- Outer rectangle with rounded corners -->
-            <rect
-              x="1"
-              y="1"
-              width="198"
-              height="118"
-              rx="10"
-              ry="10"
-              fill="none"
-              stroke="black"
-              stroke-width="2"
-            />
+            <rect x="1" y="1" width="198" height="118" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
             <!-- Head (circle) -->
-            <circle
-              cx="50"
-              cy="45"
-              r="15"
-              fill="black"
-            />
+            <circle cx="50" cy="45" r="15" fill="black" />
             <!-- Shoulders (rectangle) -->
-            <rect
-              x="35"
-              y="60"
-              width="30"
-              height="20"
-              fill="black"
-            />
+            <rect x="35" y="60" width="30" height="20" fill="black" />
             <!-- Text lines (rectangles) on the right -->
             <rect x="90" y="25" width="80" height="10" fill="black" />
             <rect x="90" y="45" width="80" height="10" fill="black" />
@@ -244,6 +234,11 @@
         <div id="output"></div>
       </div>
     </div>
+    
+    <!-- Footer -->
+    <footer>
+      <p>Credits: Frigaa Abderrahmane</p>
+    </footer>
   </div>
   
   <script>
